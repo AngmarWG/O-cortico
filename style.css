@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    border: 0px solid #ff0000;
+}
+body{
+    background: #ccc;
+}
+div#head{
+    text-align: center;
+    width: 100%;
+    height: 146px;
+    background: #fff;
+    margin-bottom: 0px;
+    background: url("../imagens/head.png") repeat-x top center;
+    box-shadw: #B7711C 0px 2px 1px;
+}
+h1{
+    margin: 10px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    width: 90%;
+    margin: 5px auto;
+}
+li{
+    width: 19.9%;
+    margin:5px;
+}
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+div#corpo{
+    width: 90%;
+    margin: 10px auto;
+    background: #fff;
+    max-width: 800px;
+    min-width: 500px;
+}
+h2{
+    margin: 2% 2% 0.5%;
+}
+p{
+    width: 60%;
+    margin: 2%;
+    float: left;
+}
+div#livro{
+    width: 30%;
+    margin: 2%;
+    float: right;
+}
+img#capa{
+    width: 100%;
+    transition: all 200ms ease-in-out;
+    overflow: hidden;
+}
+img#capa:hover{
+    
+}
+div#creditos{
+    padding: 10px;
+    height: 150px;
+}
+.clear{
+    clear: both;
+}
